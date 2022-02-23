@@ -26,6 +26,6 @@ Se você tem alguma ideia, sugestão, ou viu algum erro, você pode me contar [a
 
 <!--Links utilizados no documento-->
 
-[the_zoo-logo]: https://github.com/GustavoHerreroNunes/the_zoo/blob/main/img/logo-Texto_Vertical.png
+[the_zoo-logo]: https://github.com/GustavoHerreroNunes/the_zoo/blob/main/img/logo/logo-Texto_Vertical.png
 
 [issues]: https://github.com/GustavoHerreroNunes/the_zoo/issues
