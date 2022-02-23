@@ -1,7 +1,7 @@
-<header style="text-align:center">
-
-![logo_projeto][the_zoo-logo]
-
+<header style="text-align:center;">
+    
+<img src="img/logo/logo-Texto_Horizontal.png" alt="Logo The Zoo" width="350px">
+        
 </header>
 
 <!--Tecnologias Utilizadas e suas versões-->
@@ -25,7 +25,5 @@ Este projeto visa ser a interface web para o domínio fictício do zoológico "T
 Se você tem alguma ideia, sugestão, ou viu algum erro, você pode me contar [aqui (Issues)][issues].
 
 <!--Links utilizados no documento-->
-
-[the_zoo-logo]: https://github.com/GustavoHerreroNunes/the_zoo/blob/main/img/logo/logo-Texto_Vertical.png
 
 [issues]: https://github.com/GustavoHerreroNunes/the_zoo/issues
