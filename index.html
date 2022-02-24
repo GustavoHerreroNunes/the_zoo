@@ -3,10 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
         <link rel="icon" href="img/logo/logo-Panda.png" />
         <title>The Zoo</title>
     </head>
     <body>
+        <!--Menu Superior-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -30,6 +32,97 @@
                 </div>
             </div>
         </nav>
+
+        <!--Carrossel-->
+        <section class="carousel slide" id="section-Carrossel" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner">
+                
+                
+                <!--Indicadores-->
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#section-Carrossel" aria-current="true" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#section-Carrossel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#section-Carrossel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#section-Carrossel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#section-Carrossel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#section-Carrossel" data-bs-slide-to="5"></button>
+                </div>
+                
+                <!--Imagens-->
+                <div class="carousel-item active">
+                    <a href="#" class="text-decoration-none">
+                        <img class="d-block w-100" src="img/carrossel/01-pandas.jpg" alt="Mãe panda com seu filhote" />
+                        <div class="position-absolute w-100 bottom-0 carousel-gradient"></div>
+                        <div class="carousel-caption text-start">
+                            <h2>Ilha dos Pandas</h2>
+                            <p>Conheça Susane e Mike, a família mais fofa do mundo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="text-decoration-none">
+                        <img class="d-block w-100" src="img/carrossel/02-praca_das_capivaras.jpg" alt="Bando de capivaras pastando">
+                        <div class="position-absolute w-100 bottom-0 carousel-gradient"></div>
+                        <div class="carousel-caption">
+                            <h2>Praça das Capivaras</h2>
+                            <p>Venha interagir e Alimentar esses "Hamsters" gigantes!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="text-decoration-none">
+                        <img class="d-block w-100" src="img/carrossel/03-gigantes_da_africa.jpg" alt="Elefante jogando areia com sua tromba">
+                        <div class="position-absolute w-100 bottom-0 carousel-gradient"></div>
+                        <div class="carousel-caption">
+                            <h2>Passeio Gigantes da África</h2>
+                            <p>Faça uma excurção pelos habitats de Elefantes, Girafas, Rinocerontes e muito mais!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="text-decoration-none">
+                        <img class="d-block w-100" src="img/carrossel/04-velozes_e_amistosos.jpg" alt="Mãe guepardo com seu filhotes">
+                        <div class="position-absolute w-100 bottom-0 carousel-gradient"></div>
+                        <div class="carousel-caption">
+                            <h2>Velozes e Amistosos</h2>
+                            <p>Conheça os Guepardos mais fantásticos do mundo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="text-decoration-none">
+                        <img class="d-block w-100" src="img/carrossel/05-passeio_congelante.jpg" alt="Grupo de penguins próximos da água">
+                        <div class="position-absolute w-100 bottom-0 carousel-gradient"></div>
+                        <div class="carousel-caption">
+                            <h2>Passeio Congelante</h2>
+                            <p>Descubra as maravilhas da Antártica com nossos guias!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="text-decoration-none">
+                        <img class="d-block w-100" src="img/carrossel/06-em_regaste_a_amazonia.jpg" alt="Arara-azul-grande em meio as folhas de uma árvore">
+                        <div class="position-absolute w-100 bottom-0 carousel-gradient"></div>
+                        <div class="carousel-caption text-end">
+                            <h2>Em Resgate à Amazônia</h2>
+                            <p>The Zoo participa ativamente de programas de proteção e preservação da Amazônia</p>
+                        </div>
+                    </a>
+                </div>                    
+            </div>
+
+            <!--Botões-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#section-Carrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#section-Carrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+
+
+        </section>
 
         <!--Scripts do projeto-->
         <script src="bootstrap/js/bootstrap.min.js"></script>

@@ -1,0 +1,11 @@
+#section-Carrossel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    margin-left: 12px;
+    border-radius: 100%;
+}
+
+.carousel-gradient{
+    height: 170px;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
